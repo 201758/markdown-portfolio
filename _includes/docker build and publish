@@ -6,10 +6,17 @@ ___
 ~~~python
 print("hello docker")
 ~~~
-
+:smile: 
 ___
 **docker
 ___
+:grin:
+:heart_eyes:
+:smile:
+~~docker~~
+
+<u>docker build</u>
+
 ~~~docker
 FROM ubuntu:21.04
 RUN apt-get update && \
@@ -19,7 +26,7 @@ CMD ["python3", "/hello.py"]
 ~~~
 ___
 ##2.docker publish
-~~~docker
+ 
 
 
 
