@@ -1,0 +1,35 @@
+# docker build and publish
+##1. docker build
+### 1.1 Example 1
+**python
+___
+~~~python
+print("hello docker")
+~~~
+
+___
+**docker
+___
+~~~docker
+FROM ubuntu:21.04
+RUN apt-get update && \
+    DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y python3.9 python3-pip python3.9-dev
+ADD hello.py /
+CMD ["python3", "/hello.py"]
+~~~
+___
+##2.docker publish
+~~~docker
+
+
+
+- 1
+- 2019
+- 2
+- 3
+- 4
+
+- last_opened_file_path
+  1. modify
+  2. different
+  3. 
